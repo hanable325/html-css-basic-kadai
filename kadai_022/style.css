@@ -18,7 +18,7 @@ header {
     color: rgb(255, 255, 255)
 }
 main {
-    margin: 10 auto;
+    margin: 10px auto;
 }
 #parent {
     display: flex;
@@ -52,14 +52,12 @@ footer a {
     background-color: rgb(244, 79, 79);
     display: flex;
     justify-content: center;
-}
-a {
     color:rgb(255, 255, 255);
 }
-footer a visited {
+footer a:visited {
     color:rgb(193, 234, 251);
 }
-footer a hover {
+footer a:hover {
     color:rgb(245, 178, 168);
 }
 @media screen and (max-width: 768px) {
@@ -73,4 +71,5 @@ footer a hover {
     .contents p {
         font-size: 25px;
     }
+
 }
